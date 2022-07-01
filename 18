@@ -1,0 +1,9 @@
+class Main {
+  public static void main(String[] args) {
+  double compra = 687;
+  double revenda = 789;
+  double lucro = revenda - compra ;
+
+  System.out.println(lucro);
+  }
+}
