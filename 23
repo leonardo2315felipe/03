@@ -1,0 +1,23 @@
+import java.util.Scanner;class Main {
+  public static void main(String[] args) {
+     Scanner input = new Scanner (System.in);
+ 
+        int numero;
+        System.out.println("Informe um número");
+        numero = input.nextInt();
+ 
+        if (numero % 2 == 0) {
+            System.out.println("O número é par");
+        } else {
+            System.out.println("O número é impar");
+        }
+ 
+        if (numero >= 0) {
+            System.out.println("O número é positivo");
+        } else {
+            System.out.println("O número é negativo");
+        }
+ 
+    }
+ 
+}
