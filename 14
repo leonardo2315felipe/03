@@ -1,0 +1,9 @@
+class Main {
+  public static void main(String[] args) {
+     double valor = 985;
+  double acrecimo = 43;
+  
+  double valor_final = valor - ((valor * acrecimo)/ 100);
+  System.out.println ("o valor do produto final e" + valor_final);
+  }
+}
