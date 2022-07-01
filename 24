@@ -1,0 +1,19 @@
+import java.util.*;
+class solution {
+  public static void main(String[] args) {
+   Scanner scan = new Scanner (System.in);
+    System.out.print ("insira o numero");
+    int n = scan.nextInt();
+    if (n>0){
+      System.out.println("o numero e Fibonacci ?"+isFibonacci(n));
+  }
+}
+  public static boolean isFibonacci(int x ){
+    int s = (int) Math.sqrt(x) ;
+    return (s*s == x);
+    }
+  static boolean isPerfectSquare(int x){
+  return isPerfectSquare(5*x*x+4)||
+  isPerfectSquare (5*x*x - 4);
+    }
+}
