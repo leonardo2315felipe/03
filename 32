@@ -1,0 +1,60 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+  Scanner entrada = new Scanner(System.in);
+  System.out.println("Escolha um número entre 1 a 5");
+  int numero = entrada.nextInt();
+  System.out.print ("menu : 1.deposito , 2.saque , 3.transferencia , 4.saldo , 5.cadastro");
+    switch (numero);
+    case 1:
+    System.out.println("O número escolhido foi: 1.");  
+    break;
+    case 2:
+    System.out.println("O número escolhido foi: 2.");
+    break;
+    case 3:
+    System.out.println("O número escolhido foi: 3.");  
+    break;
+    case 4:
+    System.out.println("O número escolhido foi: 4.");
+    break;
+    case 5:
+    System.out.println("O número escolhido foi: 5.");
+    break;
+
+      Scanner l = new Scanner(System.in);
+        
+        System.out.println("BEM VINDO AO CADASTRO DE USUÁRIOS");
+        System.out.println("nome do cliente");
+        String nome = l.nextLine();
+        System.out.println("cpf");
+        String login = l.nextLine();
+        System.out.println("genero");
+        String cargo = l.nextLine();
+        System.out.println("idade");
+        int senha = l.nextInt();
+        Dados usuario;
+        usuario = new Dados();
+        usuario.setNome(nome);
+        usuario.setLogin(cpf);
+        usuario.setCargo(genero);
+        usuario.setCargo (idade);
+        ArrayList<Dados> usuarios = new ArrayList<Dados>();
+        usuarios.add(usuario);
+System.out.println(usuario.getNome()+"\n"+usuario.getLogin()+"\n"+usuario.getCargo());
+         public Pessoa() { }
+
+    public Pessoa(String name, String cpf, String email) {
+        this.numeroPessoa = Pessoa.counter;
+        this.nome = nome;
+        this.cpf = cpf;
+        this.genero = genero;
+        this.idade = idade;
+        this.accountCreationDate = new Date();
+        Pessoa.counter += 1;
+    }
+
+        
+     }
+}
+
