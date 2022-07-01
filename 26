@@ -1,0 +1,24 @@
+import java.util.*;
+ class Main {
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner (System.in);
+
+    double a , b, c , delta , x1 , x2 ;
+    System.out.print("entre com valor de a");
+    a = entrada.nextDouble();
+    System.out.print("entre com valor de b");
+    b = entrada.nextDouble();
+    System.out.print("entre com valor de c");
+    c= entrada.nextDouble();
+    delta = b*b-4*a*c;
+      
+      System.out.print(delta);
+      
+
+    x1=(b + Math.sqrt(delta))/(2*a);
+    x2=(b - Math.sqrt(delta))/(2*a);
+    System.out.println ("x1="+x1);
+    System.out.println ("x2="+x2);
+
+    }
+}
