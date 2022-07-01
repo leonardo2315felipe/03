@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+    int i,n;
+    
+  System.out.print ("insira o numero");
+  Scanner scan = new Scanner (System.in);
+  n = scan.nextInt();
+
+  for(i=1;i<=n;i++){
+    
+  System.out.println ("numero e"+i+"e o cubo de"+i+"e"+(i*i*i));
+    }
+  }
+}
