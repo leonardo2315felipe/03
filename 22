@@ -1,0 +1,12 @@
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner (System.in);
+    System.out.println("insira uma frase:");
+    String inpumt = scanner.nextLine();
+    System.out.println("/nResult:"+reserve_str_word(inpumt));
+    }
+  public static string reserve_str_word(String input_sentence){
+    if
+  }
+}
